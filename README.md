@@ -1,59 +1,55 @@
-# AngularBlog
+# Angular Blog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+Este é um projeto de blog desenvolvido com Angular 17, criado durante o BootCamp Decola Tech 2025. O objetivo deste projeto é aplicar os conceitos aprendidos na imersão, demonstrar boas práticas de desenvolvimento e incrementar o portfólio no GitHub.
 
-## Development server
+## Descrição do Projeto
 
-To start a local development server, run:
+O Angular Blog é uma aplicação que permite visualizar detalhes de posts através de uma interface simples e moderna. Foram utilizados componentes standalone, roteamento com `provideRouter` e a nova forma de configuração do Angular 17, possibilitando uma organização de código mais enxuta e atualizada.
 
-```bash
+## Funcionalidades
+
+- **Visualização de Posts:** Exibe detalhes dos posts, como título, conteúdo, autor e data de criação.
+- **Navegação com Rotas:** Utiliza rotas para acessar os posts através de URLs, por exemplo: `/post/1`
+- **Serviços e Injeção de Dependências:** Implementa um serviço para gerenciar os posts e exemplificar o uso de injeção de dependências.
+- **Componentes Standalone:** Aproveita os recursos dos componentes standalone para uma configuração mais prática e moderna.
+
+## Tecnologias Utilizadas
+
+- Angular 17
+- TypeScript
+- HTML5 & CSS3
+- Angular CLI
+
+## Instalação e Execução
+
+### Pré-Requisitos
+
+- Node.js (versão LTS recomendada)
+- Angular CLI (pode ser instalado globalmente com `npm install -g @angular/cli`)
+
+### Passos para executar o projeto
+
+1. **Clone o repositório**
+
+   Abra o terminal do VS Code e execute:
+   ```sh
+   git clone https://github.com/seu-usuario/angular-blog.git
+   cd angular-blog
+   Instale as dependências
+
+No terminal, dentro da pasta do projeto, execute:
+
+sh
+npm install
+Inicie o servidor de desenvolvimento
+
+Ainda no terminal, execute:
+
+sh
 ng serve
-```
+Acesse a aplicação
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abra o navegador e acesse:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+http://localhost:4200
+para visualizar o blog em funcionamento.
