@@ -1,0 +1,7 @@
+<div *ngIf="post">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+    <p><strong>Autor:</strong> {{ post.author }}</p>
+    <p><em>{{ post.createdAt | date:'short' }}</em></p>
+  </div>
+  
