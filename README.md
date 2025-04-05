@@ -45,11 +45,8 @@ Inicie o servidor de desenvolvimento
 
 Ainda no terminal, execute:
 
-sh
 ng serve
 Acesse a aplicação
-
 Abra o navegador e acesse:
-
 http://localhost:4200
 para visualizar o blog em funcionamento.
